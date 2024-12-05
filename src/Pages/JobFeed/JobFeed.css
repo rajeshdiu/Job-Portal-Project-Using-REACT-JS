@@ -1,0 +1,68 @@
+/* JobFeed.css */
+.job-feed {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .job-feed h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .job-card .job-title {
+    font-weight: bold;
+  }
+  
+  .job-card .apply-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .job-card .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
